@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -13,7 +12,7 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Roboto:wght@400&display=swap');
 
-/* Basic Css */
+
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -30,7 +29,6 @@
   line-height: 1.6em;
 }
 
-/* The Main container  */
 
 .main-container {
   height: 100vh;
@@ -47,7 +45,6 @@ body {
   margin: 0px;
 }
 
-/* Styling the header : Navigation Bar */
 
 header {
   margin: 0px;
@@ -92,7 +89,7 @@ span {
   font-family: 'Fraunces', serif;
 }
 
-/* Styling the nav container */
+
 
 .nav {
   display: flex;
@@ -123,7 +120,7 @@ span {
   overflow: hidden;
 }
 
-/*Container for menu button  */
+
 
 .menu-button-container {
   display: none;
@@ -139,7 +136,7 @@ span {
   display: none;
 }
 
-/*  Creating the menu button */
+
 
 .menu-button,
 .menu-button::before,
@@ -164,7 +161,7 @@ span {
   margin-top: 8px;
 }
 
-/*  Adding Functionality to the Hamburger Menu with CSS  */
+
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
   margin-top: 0px;
@@ -177,11 +174,11 @@ span {
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {
   margin-top: 0px;
-  /*  transforms the hamburger icon into a cross  */
+
   transform: rotate(-45deg);
 }
 
-/* Styling the hero section */
+
 
 .hero {
   display: flex;
@@ -192,7 +189,7 @@ span {
   background-color: #eae4d7;
 }
 
-/* Styling the hero image */
+
 
 .hero .image {
   flex: 1 1 30rem;
@@ -205,7 +202,7 @@ span {
   animation: float 3s linear infinite;
 }
 
-/* animating the main image   */
+
 
 @keyframes float {
   0%,
@@ -217,7 +214,7 @@ span {
   }
 }
 
-/* Styling the buttons for the hero and about section */
+
 
 button {
   background-color: transparent;
@@ -248,7 +245,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* herocontent hero section */
+
 
 .herocontent {
   margin: auto;
@@ -296,7 +293,6 @@ h3 {
   font-size: 25px;
 }
 
-/*Styling the About section*/
 
 .about {
   width: 100%;
@@ -316,7 +312,7 @@ h3 {
   width: 550px;
 }
 
-/* about container */
+
 
 .main {
   width: 1130px;
@@ -352,12 +348,7 @@ h3 {
   margin-bottom: 45px;
 }
 
-/*
-Skills 
 
-*/
-
-/* skills section styling */
 
 .skills {
   height: 100vh;
@@ -542,7 +533,7 @@ section .title {
   }
 }
 
-/* project */
+
 
 .project {
   background-color: rgb(232, 233, 227);
@@ -731,7 +722,6 @@ section .title {
   margin-bottom: 0.3em;
 }
 
-/* service */
 
 .service {
   background-color: rgb(232, 233, 227);
@@ -829,7 +819,7 @@ h5 {
   cursor: pointer;
 }
 
-/* contact me  */
+
 
 .contact {
   height: 100vh;
@@ -943,7 +933,7 @@ h5 {
   font-family: 'Fraunces', serif;
 }
 
-/* footer */
+
 
 .social_icon {
   text-align:center;
@@ -956,7 +946,7 @@ h5 {
 
 }
 
-     /*twitter*/
+     
 .social_icon ul li:hover.twitter {
 transform: scale(1.2);
 }
@@ -965,7 +955,7 @@ transform: scale(1.2);
   transform: scale(1.2);
 }
 
-       /*whatsapp*/
+       
 .social_icon ul li:hover.whatsapp {
 transform: scale(1.2);
 }
@@ -974,7 +964,7 @@ transform: scale(1.2);
   transform: scale(1.2);
 }
 
-     /*envelope*/
+    
 .social_icon ul li:hover.envelope{
 transform: scale(1.2);
 }
@@ -983,7 +973,7 @@ transform: scale(1.2);
   transform: scale(1.2);
 }
    
-      /*github*/
+    
 .social_icon ul li:hover.github{
 transform: scale(1.2);
 }
@@ -992,7 +982,7 @@ transform: scale(1.2);
   transform: scale(1.2);
 }
 
-  /*linkedin*/
+  
 .social_icon ul li:hover.linkedin{
 transform: scale(1.2);
 }
@@ -1008,7 +998,7 @@ transform: scale(1.2);
   text-align: center;
 }
 
-/* media queries  */
+
 
 @media (max-width: 991px) {
   html {
@@ -1158,25 +1148,20 @@ transform: scale(1.2);
 </style>
 </head>
 
-<body>
-    <div class="main-container">
-        <!-- header section starts  -->
 
+ <body>
+    <div class="main-container">
+    
         <header>
             <section class="nav">
-                <!-- We can also insert any logo here     -->
-
-                <!-- We can also insert any logo here     -->
+                
                 <div class="logo">
                     <h2 class="logo">NY<span>NO</span></h2>
                 </div>
 
-                <!--  checkbox to control the icon's state    -->
-                <input id="menu-toggle" type="checkbox" />
                 <label class="menu-button-container" for="menu-toggle">
         <div class="menu-button"></div>
       </label>
-                <!--  main menu    -->
                 <ul class="menu">
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -1189,11 +1174,7 @@ transform: scale(1.2);
             </section>
         </header>
 
-        <!-- header section ends -->
-        <section class="hero" id="hero">
-
-
-            <!----hero Section start---->
+       
 
             <div class="herocontent">
                 <h4>Hello , Nice to see you! I'm</h4>
@@ -1213,10 +1194,7 @@ transform: scale(1.2);
             </div>
 
         </section>
-        <!-- hero section ends -->
-
-
-        <!----About section start---->
+       
         <section class="about" id="about">
             <div class="main">
                 <img src="C:\Users\frank\RD\myporfolio\profile-pic (1).png" class="aboutimg">
@@ -1232,9 +1210,7 @@ transform: scale(1.2);
                 </div>
             </div>
         </section>
-        <!-- About section ends -->
-
-        <!-- skills section start -->
+      
         <section class="skills" id="skills">
             <div class="max-width">
                 <h2 class="title">Key Skills</h2>
@@ -1301,9 +1277,7 @@ transform: scale(1.2);
                 </div>
             </div>
         </section>
-        <!--skills section ends   -->
-
-        <!-- Projects section -->
+        
 
         <div class="service" id="projects">
             <div class="title">
@@ -1377,9 +1351,7 @@ transform: scale(1.2);
       </div>
     </div>
              
-        <!-- Project section ends  -->
-
-        <!-- Services section starts -->
+       
         <div class="service" id="services" style="background-color: #eae4d7;">
           <div class="title">
               <h2 class="service-heading">Services</h2>
@@ -1392,7 +1364,7 @@ transform: scale(1.2);
                   <i class="fas fa-bars"></i>
                   <h5>Web development</h5>
                   <div class="pra">
-                    <img src="C:\Users\frank\RD\myportfolio\icons8-web-development-64.png"  style="height: 200px; width: 200px; animation: float 3s linear infinite; ">
+                    <img src="C:\Users\frank\RD\myporfolio\icons8-web-development-64 (1).png"style="height: 160px; width: 160px;animation: float 3s linear infinite;"> 
 
                   </div>
               </div>
@@ -1401,7 +1373,7 @@ transform: scale(1.2);
                   <i class="far fa-user"></i>
                   <h5>Web design</h5>
                   <div class="pra">
-                     <img src="C:\Users\frank\RD\myportfolio\icons8-web-design-64.png" style="height: 160px; width: 160px;animation: float 3s linear infinite;">
+                     <img src="C:\Users\frank\RD\myporfolio\icons8-web-design-64 (1).png" style="height: 160px; width: 160px;animation: float 3s linear infinite;">
 
                   </div>
               </div>
@@ -1410,7 +1382,7 @@ transform: scale(1.2);
                   <i class="far fa-bell"></i>
                   <h5>Blockchain development</h5>
                   <div class="pra">
-                      <img src="C:\Users\frank\RD\myportfolio\icons8-blockchain-technology-64.png" style="height: 180px; width: 180px; animation:float 3s linear infinite;">
+                      <img src="C:\Users\frank\RD\myporfolio\icons8-blockchain-technology-64.png" style="height: 180px; width: 180px; animation:float 3s linear infinite;">
                  
                     </div>
               </div>
@@ -1418,9 +1390,7 @@ transform: scale(1.2);
       </div>
 
         
-        <!-- Services section ends  -->
-
-        <!-- Testimonials section starts  -->
+        
         <div class="service" id="testimonials">
             <div class="title">
                 <h2 class="testimonial-heading">Testimonials</h2>
@@ -1459,9 +1429,7 @@ transform: scale(1.2);
             </div>
         </div>
 
-        <!-- Testimonials section ends -->
-
-        <!-- contact us section starts  -->
+       
         <section class="contact" id="contact">
 
             <h2 class="contactTitle">Contact Me</h2>
@@ -1495,9 +1463,7 @@ transform: scale(1.2);
                 </div>
             </div>
         </section>
-        <!-- contact section ends -->
-
-        <!-- Footer -->
+        
 
         <section id="social_icon">
 
@@ -1519,4 +1485,3 @@ transform: scale(1.2);
 </body>
 
 </html>
-                   
