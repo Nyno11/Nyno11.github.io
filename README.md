@@ -1156,3 +1156,365 @@ transform: scale(1.2);
 </style>
 </head>
 
+<body>
+    <div class="main-container">
+        <!-- header section starts  -->
+
+        <header>
+            <section class="nav">
+                <!-- We can also insert any logo here     -->
+
+                <!-- We can also insert any logo here     -->
+                <div class="logo">
+                    <h2 class="logo">NY<span>NO</span></h2>
+                </div>
+
+                <!--  checkbox to control the icon's state    -->
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+                <!--  main menu    -->
+                <ul class="menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </section>
+        </header>
+
+        <!-- header section ends -->
+        <section class="hero" id="hero">
+
+
+            <!----hero Section start---->
+
+            <div class="herocontent">
+                <h4>Hello , Nice to see you! I'm</h4>
+                <h1>F<span class="surname">R</span>A<span>N</span>K<span>L</span>I<span>N</span> O<span>B</span>I<span>O</span>R<span>A</span></h1>
+                <h2>I'm a web designer and front-end developer.</h2>
+                <h3>Creating Elegant <span class="span2">DESIGNS</span> beyond just </h3>
+                <h3 class="tag2">putting <span class="span2">PIXELS</span> together.</h3>
+
+                <a href="franklinobiora20@gmail.com:#"><i class=""></i> <button class="btn1">Hire Me</button></a>
+                <a href="C:\Users\frank\RD\myportfolio\Copy-Franklin's Resume.pdf"><button class="btn2">Resume<i class="bi bi-download"></i></button></a>
+
+
+            </div>
+
+            <div class="image">
+                <img src="programming.png" alt=" " />
+            </div>
+
+        </section>
+        <!-- hero section ends -->
+
+
+        <!----About section start---->
+        <section class="about" id="about">
+            <div class="main">
+                <img src="C:\Users\frank\RD\myportfolio\profile-pic.png" class="aboutimg">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Web designer and front-end developer</h5>
+                    <p>My name's Franklin, #codename Nyno. I'm a Web designer and front-end developer based in Nigeria, Africa.
+<br>
+<br>
+                      I work as a Lead developer, freelancer, SDG Advocate (Community Service) and also utilize part of my time to build personal projects. I spend my leisure hours in reading, exercising, playing sports and video games. Currently, practising my skills at machine learning and AI. I love to learn and explore new areas, languages and frameworks. 
+                    </p>
+                    <a href="#contact"><button type="submit">Let's Talk</button></a>
+                </div>
+            </div>
+        </section>
+        <!-- About section ends -->
+
+        <!-- skills section start -->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">Key Skills</h2>
+                <div class="skills-content">
+                    <div class="column right">
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">HTML5,CSS3,Bootstrap</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line mern"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Javascript(ES6)</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line js"></div>
+                            </div>
+
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">React.js</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line react"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Wireframing</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line mongo"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Prototyping</span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line node"></div>
+                            </div>
+
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span class="headbar">Figma ,Adobe XD ,Maze </span>
+
+                            </div>
+                            <div class="progressBar">
+                                <div class="line corecs"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--skills section ends   -->
+
+        <!-- Projects section -->
+
+        <div class="service" id="projects">
+            <div class="title">
+                <h2 class="project-heading">Projects</h2>
+            </div>
+
+            <div class="box">
+             
+               
+                <div class="flip-card">
+               
+                  <div class="flip-card-inner">
+             
+                    <div class="flip-card-front">
+                <img src="C:\Users\frank\RD\myportfolio\image2 (1).jpeg" alt="Encyclo podcast" style="width: 250px;height: 250px;">
+              <h1 style="font-size: 15px;">VERBAL VOYAGE</h1>      
+              </div>
+                <div class="flip-card-back">
+                  <h1 style="font-size: 15px;">VERBAL VOYAGE</h1>
+                  <div class="pra">
+                  <P>Verbal Voyage is a podcast that takes a deep dive into the most important societal issues of our time. From current events and personal development to technology, pop culture, and entrepreneurship, we cover it all.</P>
+                </div>
+                </div>
+              
+              </div>
+          </div>
+        
+      
+    
+               
+                   <div class="flip-card">
+         
+                    <div class="flip-card-inner">
+       
+                      <div class="flip-card-front">
+                       <img src="C:\Users\frank\RD\myportfolio\image1 (1).jpeg" alt="BeHealthy" style="width: 250px;height: 250px;">
+                      <h1 style="font-size: 15px;">BEHEALTHY</h1>
+                      </div>
+                            <div class="flip-card-back">
+                          <h1 style="font-size: 15px;">BEHEALTHY</h1>
+                          <div class="pra">
+                         <P>Behealthy is an organization that helps her clients to live healthier and sustainable lives and also make the health system work better for everybody.</P>
+                             </div>
+                            </div>
+                 </div>
+             </div>
+          
+      
+
+
+               
+    <div class="flip-card">
+   
+      <div class="flip-card-inner">
+ 
+        <div class="flip-card-front">
+    <img src="C:\Users\frank\RD\myportfolio\image0 (3).jpeg" alt="logo" style="width: 250px;height: 250px;">
+    <h1 style="font-size: 15px;">NIDAS</h1>  
+  </div>
+    <div class="flip-card-back">
+      <h1 style="font-size: 15px;">NIDAS</h1>
+      <div class="pra">
+      <P>Nidas provides customers with suitable inner wears and fashionable outfit. We provide for both male and female, also for little children and babies.</P>
+    </div>
+    </div> 
+  
+  </div>
+</div>
+
+      
+      </div>
+    </div>
+             
+        <!-- Project section ends  -->
+
+        <!-- Services section starts -->
+        <div class="service" id="services" style="background-color: #eae4d7;">
+          <div class="title">
+              <h2 class="service-heading">Services</h2>
+              <p style="text-align: center; font-size: 20px; color: #111215;">I Provide The Best In Class Services For My Clients, And These Are Some Of The Services I Offer.</p>
+         
+            </div>
+<br>
+          <div class="box">
+              <div class="card">
+                  <i class="fas fa-bars"></i>
+                  <h5>Web development</h5>
+                  <div class="pra">
+                    <img src="C:\Users\frank\RD\myportfolio\icons8-web-development-64.png"  style="height: 200px; width: 200px; animation: float 3s linear infinite; ">
+
+                  </div>
+              </div>
+
+              <div class="card">
+                  <i class="far fa-user"></i>
+                  <h5>Web design</h5>
+                  <div class="pra">
+                     <img src="C:\Users\frank\RD\myportfolio\icons8-web-design-64.png" style="height: 160px; width: 160px;animation: float 3s linear infinite;">
+
+                  </div>
+              </div>
+
+              <div class="card">
+                  <i class="far fa-bell"></i>
+                  <h5>Blockchain development</h5>
+                  <div class="pra">
+                      <img src="C:\Users\frank\RD\myportfolio\icons8-blockchain-technology-64.png" style="height: 180px; width: 180px; animation:float 3s linear infinite;">
+                 
+                    </div>
+              </div>
+          </div>
+      </div>
+
+        
+        <!-- Services section ends  -->
+
+        <!-- Testimonials section starts  -->
+        <div class="service" id="testimonials">
+            <div class="title">
+                <h2 class="testimonial-heading">Testimonials</h2>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fas fa-bars"></i>
+                    <img src="C:\Users\frank\RD\myportfolio\boss.png" alt="Avatar" class="avatar" style="height: 100px; width: 100px; ">
+                    <h5 style="font-size: 20px;">Maxwell (project Manager)</progress></h5>
+                    <div class="pra">
+                        <p>Franklin is an impressive and professional web developer that I have had the pleasure to work with.</p>
+                       
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="far fa-user"></i>
+                    <img src="C:\Users\frank\RD\myportfolio\man.png" alt="Avatar" class="avatar" style="height: 100px; width: 100px;">
+                    <h5 style="font-size: 20px;">Taofeeq (Mobile developer)</h5>
+                    <div class="pra">
+                        <p>It's always a pleasure working with Franklin, he's good at communicating and delivering good results. He brings 100% to each project and gets workdone when it's needed the most.</p>
+                      
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="far fa-bell"></i>
+                    <img src="C:\Users\frank\RD\myportfolio\woman.png" alt="Avatar" class="avatar" style="height: 100px; width: 100px;">
+                    <h5 style="font-size: 20px;">Jennifer (IT officer)</h5>
+                    <div class="pra">
+                        <p>He shows good understanding of clients needs and deliver top products.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials section ends -->
+
+        <!-- contact us section starts  -->
+        <section class="contact" id="contact">
+
+            <h2 class="contactTitle">Contact Me</h2>
+            <div class="container contactUs">
+
+                <div class="contact-box">
+                    <div class="left contactLeft">
+                        <img src="C:\Users\frank\RD\myportfolio\profile-pic.png" class="contact-img" alt="" width="150px " />
+
+                        <div class="contact-info">
+                            <p><i class="bi bi-telephone-fill"></i> +2349039272958</p>
+                            <p><i class="bi bi-envelope-fill"> </i>franklinobiora20@gmail.com</p>
+                            <p><i class="bi bi-geo-alt-fill"></i>Port-Harcourt, Nigeria</p>
+
+                        </div>
+                        <p class='contact-content'>If you have any queries at all, please feel free to reach out and I'll gladly answer them. </p>
+
+                        <p class='contact-content'>Thanks for visiting .</p>
+
+                    </div>
+                    <div class="right contactRight">
+                        <h2 class='contacth2'>Lets Connect</h2>
+                        <form>
+                            <input type="text" class="field contactField" placeholder="Enter your Full Name" required/>
+                            <input type="email" class="field contactField" placeholder="Enter your Email" required/>
+                            <input type="text" class="field contactField" placeholder="Enter your Phone Number" />
+                            <textarea name="msg" placeholder="Suggestions/Queries" class="field contactField contactTextarea" required></textarea>
+                            <button class="btn contactBtn" type='submit'>Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section ends -->
+
+        <!-- Footer -->
+
+        <section id="social_icon">
+
+                <div class="social_icon">
+                   
+                  <ul class="menu">
+                   <li class="twitter"> <a href="https://twitter.com/11_frankie"><i class="bi bi-twitter social" style="font-size: 80px; text-align: center; color: blue;"></i></a></li>
+                    <li class="whatsapp"><a href="https://wa.me/2349039272958"><i class="bi bi-whatsapp social" style="font-size: 80px; text-align: center; color: green;"></i></a></li>
+                    <li class="envelope"><a href="franklinobiora20@gmail.com"><i class=" bi bi-envelope social" style="font-size: 80px; color: #4a6591;"></i></a></li>
+                    <li class="github"><a href="https://github.com/Nyno11"><i class=" bi bi-github" style="font-size: 80px; color: #0d0d0e;"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/franklin-obiora-9117177"><i class=" bi bi-linkedin social" style="font-size: 80px; color: #4a6591;"></i></a></li>
+                  </ul>
+                  </div>
+        </section>
+        <p class="footertext">© Designed by @Nyno</p> 
+    </div>
+
+    
+</body>
+
+</html>
+
