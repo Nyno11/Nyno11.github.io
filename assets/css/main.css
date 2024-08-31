@@ -260,8 +260,27 @@ h6 {
 
 /* Global Header on Scroll
 ------------------------------*/
-.scrolled .header {
-  --background-color: var(--background-color);
+.scrolled .index .header {
+  --background-color: #10203F;
+}
+
+
+.scrolled .ezoo .header {
+  --background-color: #000000;
+}
+
+
+.scrolled .pluto .header {
+  --background-color: #000000;
+}
+
+
+.scrolled .nimo .header {
+  --background-color: #000000;
+}
+
+.scrolled .ajebo .header {
+  --background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -931,7 +950,16 @@ section,
 # Skills Section
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 80px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills img {
+  height: 36px;
+  padding-right: 8px;
+  padding-bottom: 8px;
   display: block;
   background: none;
   border-radius: 0;
@@ -941,6 +969,7 @@ section,
   color: var(--heading-color);
   padding: 0;
   margin: 0 0 6px 0;
+  justify-content: space-between;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
