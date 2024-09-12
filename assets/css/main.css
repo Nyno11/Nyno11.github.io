@@ -25,7 +25,7 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #EF6C00;
+  --accent-color: #fbb881;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #1a1a1a;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -37,7 +37,7 @@
 :root {
   --nav-color: #fafafa;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #EF6C00;
+  --nav-hover-color: #b29780;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #1a1a1a;
   /* Used as the background color for mobile navigation menu */
@@ -266,17 +266,17 @@ h6 {
 
 
 .scrolled .ezoo .header {
-  --background-color: #000000;
+  --background-color: #957868;
 }
 
 
 .scrolled .pluto .header {
-  --background-color: #000000;
+  --background-color: #ED00E2;
 }
 
 
 .scrolled .nimo .header {
-  --background-color: #000000;
+  --background-color: #E45900;
 }
 
 .scrolled .ajebo .header {
