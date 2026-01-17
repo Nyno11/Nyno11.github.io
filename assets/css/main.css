@@ -86,16 +86,16 @@
 
 .ezoo-background {
   /* --background-color: rgba(15, 15, 15, 0.975); */
-  --background-color: #957868;
+  --background-color: #000000;
   --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --heading-color: #000000;
   --surface-color: #292929f9;
   --contrast-color: #000000;
 }
 
 .ezoo-background-light {
   /* --background-color: rgba(15, 15, 15, 0.975); */
-  --background-color: #ecded0;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #292929f9;
@@ -266,7 +266,7 @@ h6 {
 
 
 .scrolled .ezoo .header {
-  --background-color: #957868;
+  --background-color: #000000;
 }
 
 
