@@ -122,7 +122,7 @@
 
 .nimo-background {
   /* --background-color: rgba(15, 15, 15, 0.975); */
-  --background-color: #E45900;
+  --background-color: #570269;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #292929f9;
@@ -131,7 +131,7 @@
 
 .nimo-background-light {
   /* --background-color: rgba(15, 15, 15, 0.975); */
-  --background-color: #fee1ce;
+  --background-color: #e0dfdd;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #292929f9;
@@ -276,7 +276,7 @@ h6 {
 
 
 .scrolled .nimo .header {
-  --background-color: #E45900;
+  --background-color: #570269;
 }
 
 .scrolled .ajebo .header {
